@@ -1,0 +1,31 @@
+{
+    "check": [
+      {
+        "checks": "What is 80*2?",
+        "options": [
+          {"text": "40", "correct": false},
+          {"text": "160", "correct": true},
+          {"text": "16", "correct": false},
+          {"text": "10", "correct": false}
+        ]
+      },
+      {
+        "checks": "What is the capital  city of Burundi?",
+        "options": [
+          {"text": "Bujumbura", "correct": true},
+          {"text": "sothern-provence", "correct": false},
+          {"text": "east-provence", "correct": false},
+          {"text": "west-provence", "correct": false}
+        ]
+      },
+      {
+        "checks": "What is the full word of php?",
+        "options": [
+          {"text": "hypertext-language", "correct": false},
+          {"text": "Hypertext Preprocessor", "correct": true},
+          {"text": "hypertext mark-up law", "correct": false},
+          {"text": "all", "correct": false}
+        ]
+      }
+    ]
+  }
