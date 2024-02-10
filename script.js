@@ -20,10 +20,10 @@ function loadQuestions() {
 
 // Function to display a question
 function displayQuestion(index) {
-  const question = check[index];
-  console.log(question.question);
-  question.options.forEach((option, idx) => {
-    console.log(${idx + 1}. ${option.text});
+  const checks = check[index];
+  console.log(checks.checks);
+  checks.options.forEach((option, idx) => {
+    console.log(`${idx + 1}. ${option.text}`);
   });
 }
 
@@ -55,7 +55,7 @@ function startQuiz() {
         }
       });
     } else {
-      console.log(Quiz ended. Your score: ${score}/${check.length});
+      console.log(`Quiz ended. Your score: ${score}/${check.length}`);
       rl.close();
     
     }
